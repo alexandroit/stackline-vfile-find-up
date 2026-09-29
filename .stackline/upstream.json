@@ -1,0 +1,22 @@
+{
+  "upstream": "vfile-find-up",
+  "fork": "@stackline/vfile-find-up",
+  "repository": "alexandroit/stackline-vfile-find-up",
+  "upstreamRepository": "vfile/vfile-find-up",
+  "upstreamVersion": "6.1.0",
+  "sourceCommit": "aaa6c93ff500014dc0e52405638eab83a2e1d833",
+  "upstreamIntegrity": "sha512-plN64Ff/wLPvKC8ucTzyB97cgV7SdIcFL74HLCSmI/79FqOI1WACbNM4noKrJa+dZRgN6Gwp4BQElm/yBDqC3w==",
+  "status": "source-ready",
+  "files": {
+    "license": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf",
+    "index.js": "a2811ed362628144184be16d8a5d6bc3a4bebfc34d12ad3cad4d1beb4e834aa9",
+    "lib/index.js": "4b71993f7e29c76fca3d477f24c66ab5d00677815a647bac282efd4fa30ecbfb",
+    "package.json": "b25dffcaa694e8300958b1563957bc25de4eb2dd10bf62f781a524781fc9b5ee",
+    "readme.md": "916bf7deaa8f1d5249662d115b1d4f6e9511f881da729d7794bea6d23f70378c",
+    "index.d.ts": "79bea5b0350790c56dd39ba08dc73f3cf79682ce319e2c64a497ce468308496e",
+    "lib/index.d.ts": "8263edd7977ab56a7f27b468a79213ff3e895b101d730b02e22165847d071a0c"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test/index.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}

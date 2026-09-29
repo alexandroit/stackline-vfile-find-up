@@ -223,6 +223,7 @@ test('findUp', async function () {
         check(files),
         [
           path.join('test', 'fixture', 'foo.json'),
+          'package-lock.json',
           'package.json',
           'tsconfig.json'
         ],
@@ -275,6 +276,9 @@ test('findUp', async function () {
           path.join('test', 'fixture', 'foo', 'quuux.md'),
           path.join('test', 'fixture', 'foo.json'),
           path.join('test', 'fixture', 'quuuux.md'),
+          'CHANGELOG.md',
+          'UPSTREAM.md',
+          'package-lock.json',
           'package.json',
           'readme.md',
           'tsconfig.json'

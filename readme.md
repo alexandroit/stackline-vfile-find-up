@@ -1,27 +1,52 @@
 # @stackline/vfile-find-up
 
-Independent maintenance fork of `vfile-find-up@6.1.0`, preserving its API and published type declarations.
+> vfile utility to find one or more files by searching the file system upwards.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/vfile-find-up.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/vfile-find-up)
+[![license](https://img.shields.io/npm/l/@stackline/vfile-find-up.svg?style=flat-square)](https://github.com/alexandroit/stackline-vfile-find-up)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-vfile-find-up-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-vfile-find-up)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/vfile-find-up/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/vfile-find-up/)** | **[npm](https://www.npmjs.com/package/@stackline/vfile-find-up)** | **[Issues](https://github.com/alexandroit/stackline-vfile-find-up/issues)** | **[Repository](https://github.com/alexandroit/stackline-vfile-find-up)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/vfile-find-up` is the Stackline-maintained distribution of `vfile-find-up@6.1.0`. It is an independent continuation of [vfile-find-up](https://github.com/vfile/vfile-find-up); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/vfile-find-up@1.0.1` |
+| API target | `vfile-find-up@6.1.0` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `vfile, to-vfile` |
+
+## Installation
+
+```bash
 npm install @stackline/vfile-find-up
-# Keep existing imports:
-npm install vfile-find-up@npm:@stackline/vfile-find-up@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-vfile-find-up/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install vfile-find-up@npm:@stackline/vfile-find-up
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# vfile-find-up
+### vfile-find-up
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [vfile][] utility to find files by searching the file system upwards.
 
@@ -61,13 +86,13 @@ This package is [ESM only][esm].
 In Node.js (version 14.14+ and 16.0+), install with [npm][]:
 
 ```sh
-npm install vfile-find-up
+npm install @stackline/vfile-find-up
 ```
 
 ## Use
 
 ```js
-import {findUp} from 'vfile-find-up'
+import {findUp} from '@stackline/vfile-find-up'
 
 console.log(await findUp('package.json'))
 ```
@@ -237,7 +262,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/vfile/vfile-find-up/workflows/main/badge.svg
 
@@ -298,3 +323,22 @@ abide by its terms.
 [api-callback-one]: #callbackone
 
 [api-test]: #test
+
+## Credits and original authors
+
+- Original project: [vfile-find-up](https://github.com/vfile/vfile-find-up).
+- Titus Wormer.
+- Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.

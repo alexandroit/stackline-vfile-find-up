@@ -29,8 +29,12 @@
     "test:package": "node scripts/test-package.mjs",
     "test:types": "tsc --ignoreConfig --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --strict test/stackline-types.mts"
   },
-  "homepage": "https://github.com/alexandroit/stackline-vfile-find-up#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/vfile-find-up/",
   "keywords": [
+    "stackline",
+    "npm-package",
+    "vfile-find-up",
+    "typescript",
     "vfile",
     "vfile-util",
     "util",
@@ -41,7 +45,6 @@
     "find",
     "up",
     "upward",
-    "stackline",
     "maintenance-fork"
   ],
   "prettier": {
@@ -84,7 +87,7 @@
     "typescript": "7.0.2",
     "@types/node": "24.12.2"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },

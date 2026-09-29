@@ -1,0 +1,33 @@
+{
+  "repository": "alexandroit/stackline-vfile-find-up",
+  "packages": [
+    {
+      "name": "@stackline/vfile-find-up",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "vfile-find-up",
+        "typescript",
+        "vfile",
+        "vfile-util",
+        "util",
+        "utility",
+        "virtual",
+        "file",
+        "walk",
+        "find",
+        "up",
+        "upward",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/vfile-find-up/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/vfile-find-up/-/vfile-find-up-1.0.0.tgz",
+      "baselineIntegrity": "sha512-cWjSz51/D0VeRM8ydM459qYNkkmttJ5BhuX7ZQzTH+wWzvbtvovZJ2Rl2L4Q3NOCdoPKOZBaQK8Xs0vmrrtorw==",
+      "expectedSha512": "a57dbb5e13042b25cf98b94b2179b4ad9458e2bf60af70b6c87fe698e7cfb10c6a8b93aee804fd79de9d56ee6cd6bb9c0f0dbec9bb679609d741f53117331e5b",
+      "tag": "docs-stackline-vfile-find-up-v1.0.1"
+    }
+  ]
+}
